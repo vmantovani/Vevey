@@ -1,0 +1,187 @@
+* {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+}
+
+.flex-container ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar {
+  position: absolute;
+  top: 10px;
+  left: 5%;
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.navbar li a {
+  color: #ff4444;
+  font-weight: 400;
+  padding: 14px 16px;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.navbar img {
+  width: 236px;
+  height: 170px;
+}
+
+.bg-img-inicio {
+  /* background-image: url(/img/SITE_PARTE1.png); */
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header h2 {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ff4444;
+  letter-spacing: 0.1em;
+  font-size: 28px;
+  margin-top: 50px;
+}
+
+.header h2:after {
+  content: "";
+  border: 1px solid #ff4444;
+  display: block;
+  width: 152px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.header p {
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #ff4444;
+  letter-spacing: 0.1em;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.produtos h2 {
+  position: absolute;
+  width: 100%;
+  top: 150%;
+  text-align: center;
+  font-family: "Get Show";
+  font-size: 70px;
+  color: #ff4444;
+}
+
+.produtos img {
+  width: 260px;
+  height: 258px;
+  float: left;
+  margin-top: 10px;
+}
+
+.produtos .flex-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.produtos p {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.produtos p:after {
+  content: "";
+  display: block;
+  width: 40px;
+  margin: 0 auto;
+  border: 2px solid #000;
+  margin-top: 10px;
+}
+
+.cursos img:nth-of-type(1) {
+  width: 1624px;
+  height: 1107px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 100px;
+  filter: brightness(50%);
+  z-index: 1;
+}
+
+.cursos img:nth-of-type(2) {
+  position: absolute;
+  top: 209%;
+  left: 184px;
+}
+
+.cursos h2 {
+  position: absolute;
+  top: 249%;
+  width: 100%;
+  font-family: "Get Show";
+  font-size: 152px;
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+}
+
+.cursos button {
+  position: absolute;
+  left: 42%;
+  width: 272px;
+  height: 56px;
+  text-transform: uppercase;
+  background-color: transparent;
+  font-family: "Nunito";
+  font-size: 23px;
+  font-weight: 400;
+  color: #fff;
+  top: 267%;
+  border: 2px solid #fff;
+  border-radius: 24px;
+  text-align: center;
+  z-index: 2;
+}
+
+.lojas img {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.atendimento {
+  background-image: url(/img/SITE_PARTE6.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 1624px;
+  height: 710px;
+}
+
+.footer {
+  background-image: url(/img/SITE_PARTE7.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 1624px;
+  height: 467px;
+  margin-top: 340px;
+}
