@@ -1,7 +1,9 @@
 * {
-  font-family: "Nunito", sans-serif;
-  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  line-height: 40px;
   max-width: 1665px;
+  font-weight: 300;
 }
 
 .navbar ul {
@@ -218,17 +220,56 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  max-height: 1300px;
+  margin-bottom: 200px;
+}
+.cursos {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .cursos .subtitulo {
-  position: relative;
-  width: 100%;
-  top: 10px;
-  left: 0;
+  top: -120px;
+}
+
+.cursos p {
+  letter-spacing: 0.1em;
   text-align: center;
+}
+
+.frasesantoandre {
+  margin-top: 20px;
+  font-size: smaller;
+}
+
+/* --------- SOBRE ---------- */
+
+.sobre {
+  position: relative;
+  width: 80%;
   margin: 0 auto;
-  font-family: "Get Show";
-  font-size: 70px;
-  color: #ff4444;
+}
+.sobre .subtitulo {
+  top: -120px;
+}
+.sobre p {
+  margin-bottom: 30px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+/* --------- PRODUTOS ---------- */
+
+.sobre {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+.sobre .subtitulo {
+  top: -120px;
+}
+.sobre p {
+  margin-bottom: 30px;
+  letter-spacing: 0.1em;
+  text-align: center;
 }
