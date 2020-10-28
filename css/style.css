@@ -260,16 +260,14 @@
 
 /* --------- PRODUTOS ---------- */
 
-.sobre {
-  position: relative;
-  width: 80%;
-  margin: 0 auto;
+.produtos-doces img {
+  margin-top: 250px;
+  display: inline-flex;
+  float: left;
 }
-.sobre .subtitulo {
-  top: -120px;
-}
-.sobre p {
-  margin-bottom: 30px;
-  letter-spacing: 0.1em;
-  text-align: center;
+
+.produtos-festas img,
+.produtos-emb img {
+  display: inline-flex;
+  float: right;
 }
