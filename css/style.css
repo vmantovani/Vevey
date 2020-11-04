@@ -260,14 +260,128 @@
 
 /* --------- PRODUTOS ---------- */
 
+.produtos-doces,
+.produtos-festas,
+.produtos-conf,
+.produtos-emb {
+  position: relative;
+  display: flex;
+}
+
+.produtos img {
+  position: absolute;
+}
+
 .produtos-doces img {
   margin-top: 250px;
   display: inline-flex;
   float: left;
 }
 
-.produtos-festas img,
+.produtos-festas img {
+  display: flex;
+  float: right;
+  top: 1000px;
+  left: 580px;
+  display: inline-flex;
+}
+
+.produtos-conf img {
+  display: inline-flex;
+  float: left;
+  top: 1800px;
+}
+
 .produtos-emb img {
+  display: flex;
+  float: right;
+  top: 2500px;
+  left: 580px;
+  display: inline-flex;
+}
+
+.produtos-doces h2 {
+  top: 500px;
+  left: 1050px;
+  position: absolute;
   display: inline-flex;
   float: right;
+  font-family: "Get Show";
+  font-size: 90px;
+  color: #ffca45;
+}
+
+.produtos-doces p {
+  top: 600px;
+  left: 620px;
+  align-self: center;
+  letter-spacing: 0.07em;
+  position: absolute;
+  display: inline-flex;
+  float: right;
+}
+
+.produtos-festas h2 {
+  top: 1350px;
+  left: 350px;
+  position: absolute;
+  display: inline-flex;
+  float: left;
+  font-family: "Get Show";
+  font-size: 90px;
+  color: #ffca45;
+}
+
+.produtos-festas p {
+  top: 1450px;
+  right: 720px;
+  align-self: center;
+  margin-left: 30px;
+  letter-spacing: 0.07em;
+  position: absolute;
+  display: inline-flex;
+  float: left;
+}
+
+.produtos-conf h2 {
+  top: 2050px;
+  left: 950px;
+  position: absolute;
+  display: inline-flex;
+  float: right;
+  font-family: "Get Show";
+  font-size: 90px;
+  color: #ffca45;
+}
+
+.produtos-conf p {
+  top: 2150px;
+  left: 600px;
+  margin-right: 40px;
+  align-self: center;
+  letter-spacing: 0.07em;
+  position: absolute;
+  display: inline-flex;
+  float: right;
+}
+
+.produtos-emb h2 {
+  top: 2900px;
+  left: 350px;
+  position: absolute;
+  display: inline-flex;
+  float: left;
+  font-family: "Get Show";
+  font-size: 90px;
+  color: #ffca45;
+}
+.produtos-emb p {
+  top: 3000px;
+  right: 720px;
+  align-self: center;
+  margin-left: 30px;
+  letter-spacing: 0.07em;
+  position: absolute;
+  display: inline-flex;
+  float: left;
 }
